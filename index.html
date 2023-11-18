@@ -52,6 +52,7 @@
     setInterval(() => {
       if ((progress < 100)) {
         progress += 1;
+        
         progressBar.style.width = `${progress}%`;
         percentage.innerText = `${progress}%`;
         percentage.style.left = `${progress}%`;
